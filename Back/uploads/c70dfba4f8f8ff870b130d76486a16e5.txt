@@ -1,0 +1,147 @@
+Selenium is a widely adopted open-source automation testing framework that is designed to help users test web applications across various browsers and platforms. Selenium is not just a single tool but a set of tools that helps testers to automate web-based applications more efficiently. This comprehensive tutorial will help you gain an in-depth understanding of Selenium and how to use it to streamline your testing processes.
+
+Components of Selenium
+In this tutorial, you will find a detailed description on the following four tools that form the Selenium suite −
+
+Selenium IDE − Selenium Integrated Development Environment (IDE) is a Firefox plugin that lets testers to record their actions as they follow the workflow that they need to test. It allows users to create test scripts without having to write codes manually. Although it offers a quick start, Selenium IDE is not usually recommended for testing complex scenarios.
+Selenium RC − Selenium Remote Control (RC) was the flagship testing framework that allowed more than simple browser actions and linear execution. It can help you use the full power of programming languages such as Java, C#, PHP, Python, Ruby and PERL to create more complex tests.
+Selenium WebDriver − Selenium WebDriver is the successor to Selenium RC which sends commands directly to the browser and retrieves results. WebDriver is meant for automating browser interactions. It provides a simple API for controlling the browsers and help users interact with web elements.
+Selenium Grid − Selenium Grid is meant for executing parallel tests across multiple machines. Due to the distribution of test execution across different environments, it can greatly minimize the testing time.
+Key Features of Selenium
+Here are some of the prominent features of Selenium that makes it so popular among testers and developers a like −
+
+Cross-browser Compatibility − You can use Selenium to execute tests on different browsers including Chrome, Firefox, Safari, and Internet Explorer. This ensures that your web application performs consistently across multiple platforms.
+Platform Independence − Selenium is not bound to any specific operating system. It can run on Windows, macOS, and Linux. Due to this platform independence, Selenium is the preferred choice for testing diverse applications.
+Support for Multiple Programming Languages − Selenium supports multiple programming languages including Java, Python, C#, Ruby, and JavaScript. This flexibility allows testers and developers to choose a language they are comfortable with.
+Extensibility − Selenium has features to enable users to incorporate additional functionalities through several plugins or extensions. One can easily customize Selenium to suit specific testing requirements.
+A Sample Test Script Using Selenium WebDriver
+Getting started with Selenium involves setting up the development environment, selecting the best fit programming language as per your expertise, and configuring the Selenium WebDriver. This tutorial will guide you through each step, providing hands-on examples wherever necessary.
+
+Here's an example test case written in Python using Selenium WebDriver where we will open a web browser (Chrome), navigate to a website (www.tutorialspoint.com), get its title and print it on the console.
+
+Example
+Before you begin, make sure you have Python installed on your system along with the Selenium WebDriver library.
+
+from selenium import webdriver
+
+def first_test_script():
+   # Create an instance of the Chrome WebDriver
+   # you can use other browsers too
+   driver = webdriver.Chrome()
+
+   # navigate to the website
+   driver.get("https://www.tutorialspoint.com")
+
+   # Get the actual title of the page
+   title = driver.title
+
+   # Print the title of the website
+   print("Title: " + title)
+    
+   # Close the browser window
+   driver.quit()
+
+if __name__ == "__main__":
+   first_test_script()
+Save the script to a file (e.g., selenium_example.py) and run it using −
+
+python selenium_example.py
+Output
+We got the following output from this Python code −
+
+Title: Online Tutorials, Courses, and eBooks Library | Tutorialspoint
+Audience
+This tutorial is designed for software testing professionals who would like to learn the basics of Selenium through practical examples. The tutorial contains enough ingredients to get you started with Selenium from where you can take yourself to higher levels of expertise.
+
+Prerequisites
+Before proceeding with this tutorial, you should have a basic understanding of Java or any other object-oriented programming language. In addition, you should be well-versed with the fundamentals of testing concepts.
+
+Print Page
+Previous
+Next
+TOP TUTORIALS
+Python Tutorial
+Java Tutorial
+C++ Tutorial
+C Programming Tutorial
+C# Tutorial
+PHP Tutorial
+R Tutorial
+HTML Tutorial
+CSS Tutorial
+JavaScript Tutorial
+SQL Tutorial
+TRENDING TECHNOLOGIES
+Cloud Computing Tutorial
+Amazon Web Services Tutorial
+Microsoft Azure Tutorial
+Git Tutorial
+Ethical Hacking Tutorial
+Docker Tutorial
+Kubernetes Tutorial
+DSA Tutorial
+Spring Boot Tutorial
+SDLC Tutorial
+Unix Tutorial
+CERTIFICATIONS
+Business Analytics Certification
+Java & Spring Boot Advanced Certification
+Data Science Advanced Certification
+Cloud Computing And DevOps
+Advanced Certification In Business Analytics
+Artificial Intelligence And Machine Learning
+DevOps Certification
+Game Development Certification
+Front-End Developer Certification
+AWS Certification Training
+Python Programming Certif
+Auston Matthews just went Instagram official with his new girlfriend, Vanessa Piunno. On Tuesday, Piunno took to Instagram to share photos from the 2026 Winter Olympic Games in Milano Cortina.
+
+“A month to remember forever,” Piunno captioned a post that included her posing with Matthews after his gold medal win.
+
+“I’m here for the hard launch,” a friend of Piunno and Matthews wrote.
+
+“Living her best life,” wrote another.
+
+“You’re the trophy wife,” another added.
+
+Matthews was previously in a long-term relationship with Emily Ruttledge, a licensed primary therapist who lives in California. It’s unclear when the pair parted ways, since they kept their relationship extremely private.
+
+But who is Auston Matthews’s new girlfriend, Vanessa Piunno? Keep reading to learn everything we know.
+
+She's been dating Matthews since 2025
+Before the 26-year-old went grid official with Matthews, 28, she included a photo with the Toronto Maple Leafs captain in a 2025 year-end post.
+
+"January to December, 2025 gave me more than I asked for," her caption read. "So grateful."
+
+Piunno shared a photo from a trip to Arizona that featured Auston Matthews and his dog, Felix. (Image via Instagram/VanessaPiunno)
+Piunno shared a photo from a trip to Arizona that featured Auston Matthews and his dog, Felix. (Image via Instagram/VanessaPiunno)
+The post included photos from a trip to Arizona, where Matthews's family lives. One photo featured the couple at sunset, with Matthews's dog, Felix.
+
+Piunno shared a photo from a beach getaway with Matthews in September 2025. (Image via Instagram/VanessaPiunno)
+Piunno shared a photo from a beach getaway with Matthews in September 2025. (Image via Instagram/VanessaPiunno)
+In a separate post from September 2025, Piunno shared vacation photos, which included who we now believe to be Matthews in the background.
+
+She's a skincare expert
+Piunno is a certified medical aesthetician specializing in non-surgical treatments, including facials, dermaplaning, chemical peels, microdermabrasion and microneedling.
+
+According to her Facebook page, she attended Vanier College in Montreal but has pivoted her career into training other aestheticians. She created her own education program, the Piunno Beauty Academy, which provides hands-on training in skincare services and resources for small-business owners.
+
+She has her own clothing line
+Piunno created the brand estecomfort, which focuses on "elevating comfort and style for aestheticians." It's a hybrid of functional loungewear for service providers, including hoodies and leggings sets, starting at $73.
+
+This content is not available due to your privacy preferences.
+Update your settings here to see it.
+She's here, there and everywhere
+Piunno travels often for training. Although she's believed to be based in Toronto, she frequently travels to Vancouver and Montreal, where she has family.
+
+She's built a large online following on her own
+While it's likely her online following will grow after hard-launching her relationship with Matthews, Piunno already had more than 55,000 followers on Instagram.
+
+While her Instagram is mostly business-focused, her TikTok account shares more of her life — including her go-to workouts and her favourite beauty products.
+
+This content is not available due to your privacy preferences.
+Update your settings here to see it.
+Grab a pen and paper because you'll want to write down her skincare recommendations!
+
+Let us know what you think by emailing us or threading us @yahoocanada. Follow us on TikTok, WhatsApp and Instagram.

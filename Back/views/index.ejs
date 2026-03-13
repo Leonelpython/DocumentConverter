@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./Css/index.css" rel="stylesheet">
+</head>
+<body>
+    <nav></nav>
+    <main class="main">
+        <!-- <h1>
+            Document Converter
+        </h1> -->
+        <div class="title">
+            <div class="first">
+                <span class="start">Doc</span>
+                <span>ument</span>
+            </div>
+            <div class="second">
+                <span class="start">Con</span>
+                <span>verter</span>
+            </div>
+        </div>
+        <div class="names">
+            <div class="source">
+                <label for="src_text">Source file</label>
+                <select id="src_text" name="src_text">
+                    <option value="text" id="text">text</option>
+                    <option value="docx" id="docx">docx</option>
+                    <option value="pdf" id="pdf">pdf</option>
+                </select>
+            </div>
+            <div id="destination">
+                <label for="dest_file">Destination File</label>
+                <select id="dest_file" name="dest_file">
+                    <option value="text" id="text_dest">text</option>
+                    <option value="docx" id="docx_dest">docx</option>
+                    <option value="pdf" id="pdf_dest">pdf</option>
+                </select>
+            </div>
+        </div>
+        <div class="file_selector">
+            <form>
+                <label for="file" id="file_label" name="file_label">Import your file</label>
+                <input type="file" id="file" name="file">
+            </form>
+        </div>
+        <div id="area">
+            <div class="file_area">
+                <span id="f">file:</span>
+                <span id="filename"></span>
+            </div>
+            <button id="convert">Convert</button>
+        </div>
+    </main>
+    <div class="preview"></div>
+    <!-- <iframe allowfullscreen allow="autoplay" id="pub1"></iframe> -->
+    <footer></footer>
+    <script src="./Js/extractor.js" type="module" nonce="<%= nonce %>"></script>
+</body>
+</html>
