@@ -1,2 +1,2 @@
-# DocumentConverter
-convert documents word, pdf, text
+# DocConverter
+convert documents to word, pdf, text
