@@ -1,0 +1,122 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    row-gap: 50px;
+    background-color: rgba(11, 11, 11, 0.9);
+}
+
+
+h1 {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+.names {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+#file {
+    display: none;
+}
+
+#file_label {
+    display: flex;
+    justify-content: center;
+    border: solid 1px;
+    /* background-color:darkcyan; */
+    background-color:blue;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+#area {
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
+    visibility: hidden;
+}
+
+#convert {
+    background-color: blue;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#filename {
+    height: 20px;
+    color: white;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+}
+
+#f {
+    margin-right: 5px;
+}
+
+.file_area {
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.preview {
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    height: auto;
+    /* width: 595px; */
+    width: 1080px;
+    top: 10%;
+    bottom: 10%;
+    left: 15%;
+    /* right: ; */
+    display: none;
+}
+
+/* .start {
+    color: blue;
+} */
+
+iframe {
+    display: none;
+}
